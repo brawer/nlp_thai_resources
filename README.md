@@ -10,6 +10,7 @@ Library | Description | Programming Languages | Features | License | Author & Li
 --- | --- | --- | --- | --- | ---
 JTCC| Thai Character Cluster | Java | | GPL-3.0 | [Wittawat](https://github.com/wittawatj/jtcc)
 TCC | Thai Character Cluster | Python | | Apache 2.0 | [Wannaphong](https://github.com/wannaphongcom/pythainlp/blob/pythainlp1.4/pythainlp/tokenize/tcc.py)
+ICU | International Components for Unicode | C/C++, Java; wrappers for Python, Rust, Ruby, PHP, others | Finds [UTR29 grapheme clusters](http://www.unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries) for all languages (not just Thai) in [boundary analysis](http://userguide.icu-project.org/boundaryanalysis)</a>; see [demo](http://demo.icu-project.org/icu-bin/icusegments#0/th) | [ICU](https://spdx.org/licenses/ICU.html) | [ICU](http://site.icu-project.org/home)
 
 ### Thai Sentiment Analysis
 Library | Description | Programming Languages | Features | License | Author & Link
@@ -34,6 +35,14 @@ LK82 + Udom83 | Thai Soundex | Python | | | [Korakot](https://gist.github.com/ko
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>ICU</td>
+<td>ICU (International Components for Unicode)</td>
+<td>C/C++, Java; wrappers for Python, Rust, Ruby, PHP, others</td>
+<td>Thai word segmentation part of <a href="http://userguide.icu-project.org/boundaryanalysis">boundary analysis</a>; see <a href="http://demo.icu-project.org/icu-bin/icusegments#1/th">demo</a></td>
+<td><a href="https://spdx.org/licenses/ICU.html">ICU</a></td>
+<td><a href="http://site.icu-project.org/home">ICU</a></td>
+</tr>
 <tr>
 <td>Swath</td>
 <td>SWATH (Smart Word Analysis for THai) is a word segmentation for Thai</td>
